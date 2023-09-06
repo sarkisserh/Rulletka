@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		123979ADD2457329D6F0F538 /* Pods_rulletka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5A231AE7E5176F43CB738A /* Pods_rulletka.framework */; };
+		FA24D55A2A8932AB0011A25E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA24D5592A8932AB0011A25E /* AppDelegate.swift */; };
+		FA24D55E2A8932AB0011A25E /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA24D55D2A8932AB0011A25E /* SettingsVC.swift */; };
+		FA24D5612A8932AB0011A25E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA24D55F2A8932AB0011A25E /* Main.storyboard */; };
+		FA24D5632A8932B30011A25E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA24D5622A8932B30011A25E /* Assets.xcassets */; };
+		FA24D5662A8932B30011A25E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA24D5642A8932B30011A25E /* LaunchScreen.storyboard */; };
+		FA610BCB2A8BD4F2004EE094 /* RatingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA610BCA2A8BD4F1004EE094 /* RatingVC.swift */; };
+		FA610BCF2A8BDFA1004EE094 /* RatingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA610BCE2A8BDFA1004EE094 /* RatingCell.swift */; };
+		FA610BD12A8BF82A004EE094 /* RatingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA610BD02A8BF82A004EE094 /* RatingModel.swift */; };
+		FA68AAA22A895D850009C95E /* UICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA68AAA02A895D850009C95E /* UICollectionViewCell.swift */; };
+		FA68AAA32A895D850009C95E /* UIViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA68AAA12A895D850009C95E /* UIViewHelper.swift */; };
+		FA68AAA52A895F8A0009C95E /* NumbersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA68AAA42A895F8A0009C95E /* NumbersModel.swift */; };
+		FA68AAA92A89621E0009C95E /* NumberCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA68AAA72A89621E0009C95E /* NumberCollectionViewCell.swift */; };
+		FA68AAAA2A89621E0009C95E /* NumberCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA68AAA82A89621E0009C95E /* NumberCollectionViewCell.xib */; };
+		FA9E3E5B2A89377A009119F6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA9E3E592A89377A009119F6 /* GoogleService-Info.plist */; };
+		FA9E3E5C2A89377A009119F6 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9E3E5A2A89377A009119F6 /* AuthViewController.swift */; };
+		FAF2C9D52A89519000B88E37 /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2C9D42A89519000B88E37 /* GameVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		82D2803F0C9E04A602006869 /* Pods-rulletka.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rulletka.release.xcconfig"; path = "Target Support Files/Pods-rulletka/Pods-rulletka.release.xcconfig"; sourceTree = "<group>"; };
+		8D5A231AE7E5176F43CB738A /* Pods_rulletka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rulletka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEEAF022E137641D26192155 /* Pods-rulletka.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rulletka.debug.xcconfig"; path = "Target Support Files/Pods-rulletka/Pods-rulletka.debug.xcconfig"; sourceTree = "<group>"; };
+		FA24D5562A8932AB0011A25E /* rulletka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rulletka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA24D5592A8932AB0011A25E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA24D55D2A8932AB0011A25E /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		FA24D5602A8932AB0011A25E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA24D5622A8932B30011A25E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA24D5652A8932B30011A25E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA24D5672A8932B30011A25E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA610BCA2A8BD4F1004EE094 /* RatingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingVC.swift; sourceTree = "<group>"; };
+		FA610BCE2A8BDFA1004EE094 /* RatingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingCell.swift; sourceTree = "<group>"; };
+		FA610BD02A8BF82A004EE094 /* RatingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingModel.swift; sourceTree = "<group>"; };
+		FA68AAA02A895D850009C95E /* UICollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewCell.swift; sourceTree = "<group>"; };
+		FA68AAA12A895D850009C95E /* UIViewHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewHelper.swift; sourceTree = "<group>"; };
+		FA68AAA42A895F8A0009C95E /* NumbersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersModel.swift; sourceTree = "<group>"; };
+		FA68AAA72A89621E0009C95E /* NumberCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberCollectionViewCell.swift; sourceTree = "<group>"; };
+		FA68AAA82A89621E0009C95E /* NumberCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NumberCollectionViewCell.xib; sourceTree = "<group>"; };
+		FA9E3E592A89377A009119F6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FA9E3E5A2A89377A009119F6 /* AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		FAF2C9D42A89519000B88E37 /* GameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA24D5532A8932AB0011A25E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				123979ADD2457329D6F0F538 /* Pods_rulletka.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		249FA3D48C9F378A343FF6EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEEAF022E137641D26192155 /* Pods-rulletka.debug.xcconfig */,
+				82D2803F0C9E04A602006869 /* Pods-rulletka.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		320A7CC7ACD50241473A6CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D5A231AE7E5176F43CB738A /* Pods_rulletka.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA24D54D2A8932AA0011A25E = {
+			isa = PBXGroup;
+			children = (
+				FA24D5582A8932AB0011A25E /* rulletka */,
+				FA24D5572A8932AB0011A25E /* Products */,
+				249FA3D48C9F378A343FF6EF /* Pods */,
+				320A7CC7ACD50241473A6CEA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA24D5572A8932AB0011A25E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA24D5562A8932AB0011A25E /* rulletka.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA24D5582A8932AB0011A25E /* rulletka */ = {
+			isa = PBXGroup;
+			children = (
+				FA24D5672A8932B30011A25E /* Info.plist */,
+				FAF2C9D32A89517C00B88E37 /* Screen */,
+				FA9E3E592A89377A009119F6 /* GoogleService-Info.plist */,
+				FA24D5592A8932AB0011A25E /* AppDelegate.swift */,
+				FA24D5622A8932B30011A25E /* Assets.xcassets */,
+				FA24D5642A8932B30011A25E /* LaunchScreen.storyboard */,
+				FA68AA9F2A895D5A0009C95E /* Core */,
+			);
+			path = rulletka;
+			sourceTree = "<group>";
+		};
+		FA68AA9F2A895D5A0009C95E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FA68AAA02A895D850009C95E /* UICollectionViewCell.swift */,
+				FA68AAA12A895D850009C95E /* UIViewHelper.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FA68AAA62A895FF40009C95E /* GameScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FA68AAAD2A89622F0009C95E /* Cell */,
+				FA68AAAC2A89622A0009C95E /* View */,
+				FA68AAAB2A8962240009C95E /* Model */,
+			);
+			path = GameScreen;
+			sourceTree = "<group>";
+		};
+		FA68AAAB2A8962240009C95E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA68AAA42A895F8A0009C95E /* NumbersModel.swift */,
+				FA610BD02A8BF82A004EE094 /* RatingModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA68AAAC2A89622A0009C95E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA9E3E5A2A89377A009119F6 /* AuthViewController.swift */,
+				FA24D55D2A8932AB0011A25E /* SettingsVC.swift */,
+				FAF2C9D42A89519000B88E37 /* GameVC.swift */,
+				FA610BCA2A8BD4F1004EE094 /* RatingVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA68AAAD2A89622F0009C95E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FA68AAA72A89621E0009C95E /* NumberCollectionViewCell.swift */,
+				FA68AAA82A89621E0009C95E /* NumberCollectionViewCell.xib */,
+				FA610BCE2A8BDFA1004EE094 /* RatingCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		FAF2C9D32A89517C00B88E37 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				FA24D55F2A8932AB0011A25E /* Main.storyboard */,
+				FA68AAA62A895FF40009C95E /* GameScreen */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA24D5552A8932AB0011A25E /* rulletka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA24D56A2A8932B30011A25E /* Build configuration list for PBXNativeTarget "rulletka" */;
+			buildPhases = (
+				E9B65D56F0AE72ABB0B12EEC /* [CP] Check Pods Manifest.lock */,
+				FA24D5522A8932AB0011A25E /* Sources */,
+				FA24D5532A8932AB0011A25E /* Frameworks */,
+				FA24D5542A8932AB0011A25E /* Resources */,
+				F14B96980CFC413236B8D6F4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rulletka;
+			productName = rulletka;
+			productReference = FA24D5562A8932AB0011A25E /* rulletka.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA24D54E2A8932AA0011A25E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					FA24D5552A8932AB0011A25E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = FA24D5512A8932AA0011A25E /* Build configuration list for PBXProject "rulletka" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA24D54D2A8932AA0011A25E;
+			productRefGroup = FA24D5572A8932AB0011A25E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA24D5552A8932AB0011A25E /* rulletka */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA24D5542A8932AB0011A25E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA24D5662A8932B30011A25E /* LaunchScreen.storyboard in Resources */,
+				FA9E3E5B2A89377A009119F6 /* GoogleService-Info.plist in Resources */,
+				FA24D5632A8932B30011A25E /* Assets.xcassets in Resources */,
+				FA24D5612A8932AB0011A25E /* Main.storyboard in Resources */,
+				FA68AAAA2A89621E0009C95E /* NumberCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E9B65D56F0AE72ABB0B12EEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rulletka-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F14B96980CFC413236B8D6F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rulletka/Pods-rulletka-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rulletka/Pods-rulletka-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rulletka/Pods-rulletka-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA24D5522A8932AB0011A25E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9E3E5C2A89377A009119F6 /* AuthViewController.swift in Sources */,
+				FA68AAA92A89621E0009C95E /* NumberCollectionViewCell.swift in Sources */,
+				FA24D55E2A8932AB0011A25E /* SettingsVC.swift in Sources */,
+				FA68AAA32A895D850009C95E /* UIViewHelper.swift in Sources */,
+				FA610BD12A8BF82A004EE094 /* RatingModel.swift in Sources */,
+				FA610BCF2A8BDFA1004EE094 /* RatingCell.swift in Sources */,
+				FA610BCB2A8BD4F2004EE094 /* RatingVC.swift in Sources */,
+				FA68AAA52A895F8A0009C95E /* NumbersModel.swift in Sources */,
+				FA68AAA22A895D850009C95E /* UICollectionViewCell.swift in Sources */,
+				FAF2C9D52A89519000B88E37 /* GameVC.swift in Sources */,
+				FA24D55A2A8932AB0011A25E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA24D55F2A8932AB0011A25E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA24D5602A8932AB0011A25E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA24D5642A8932B30011A25E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA24D5652A8932B30011A25E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA24D5682A8932B30011A25E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA24D5692A8932B30011A25E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA24D56B2A8932B30011A25E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEEAF022E137641D26192155 /* Pods-rulletka.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = rulletka/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UAKitLessons.fireBaseApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FA24D56C2A8932B30011A25E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82D2803F0C9E04A602006869 /* Pods-rulletka.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = rulletka/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UAKitLessons.fireBaseApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA24D5512A8932AA0011A25E /* Build configuration list for PBXProject "rulletka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA24D5682A8932B30011A25E /* Debug */,
+				FA24D5692A8932B30011A25E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA24D56A2A8932B30011A25E /* Build configuration list for PBXNativeTarget "rulletka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA24D56B2A8932B30011A25E /* Debug */,
+				FA24D56C2A8932B30011A25E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA24D54E2A8932AA0011A25E /* Project object */;
+}
